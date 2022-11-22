@@ -1,6 +1,8 @@
 pragma solidty 0.8.0;
 
-contract Staking {
+import "./SwapExamples.sol";
+
+contract Staking is SwapExamples {
 
     //mapping address to units balances;
 
